@@ -11,7 +11,7 @@ dp = Dispatcher(bot, storage=MemoryStorage())
 
 @dp.message_handler(commands=['start'])
 async def start(message):
-    print(f'Привет! Я бот помогающий твоему заданию')
+    print(f'Привет! Я бот помогающий твоему здоровью!')
     #print(f'Запущена команда {message.text}')
     # await message.reply('Привет! Я бот помогающий твоему заданию')
 
